@@ -1,0 +1,144 @@
+body{
+    background-image:linear-gradient(to top left ,rgba(0, 0, 0, 0.649),rgb(2, 2, 2));
+    padding: 0px;
+    margin: 0px;
+   
+ }
+  .header{
+     color: white;
+     font-size: 70px;
+     padding-left: 20px;
+     position: relative;
+     top: 30px;
+     left: 30px;
+     font-style: italic;
+
+
+  }
+  .navigation-bar{ 
+     padding: 10px;
+     position: relative;
+     bottom: 90px;
+     
+  }
+
+  .primary-menu{
+     display:flex;
+     justify-content: center;
+ 
+  }
+
+  .primary-menu li{
+     font-size: 20px;
+     list-style: none;
+     padding: 50px;
+     opacity: 0.7;
+  }
+
+  .primary-menu a{
+     text-decoration: none;
+     color:white
+  }
+  a:hover{
+     color:aqua;
+     
+  }
+ 
+  .topic{
+    color: white;
+   opacity: 0.5;
+   font-size: 30px; 
+   position: relative;
+   left:120px;
+  }
+  .header2{
+    color: white;
+    font-size: 120px;
+    position: relative;
+    top: 15px;
+    left: 120px;
+  }
+  .defination pre{
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+    position: relative;
+    left: 120px;
+    
+  }
+  .rate{
+    color:red;
+    font-size: 50px;
+    font-weight: 600;
+    position: relative;
+    left: 120px;
+    opacity: 0.8;
+   }
+  .image{
+   width: 700px;
+   position: relative;
+   left: 900px;
+   bottom: 350px;
+   transform: rotate(-120deg);
+   filter: drop-shadow(-8px 15px 8px black);
+  
+  }
+   .background-image{
+    width: 1800px;
+    transform: rotate(-50deg);
+    opacity: 0.3;
+    position: absolute;
+    bottom: 300px;
+    left: -150px;
+    filter: drop-shadow(-8px 15px 8px black);
+   
+
+   }
+   button{
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: grey;
+    border: none;
+    position: relative;
+    bottom: 230px;
+    right: 150px;
+    
+   }
+   button p{
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+   }
+   
+   button:hover{
+    background-color:red;
+    transition: 0.8s;
+
+   }
+   .search button{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: grey;
+    border: none;
+    position: relative;
+    bottom: 230px;
+    left: 1300px;
+   }
+   .search button:hover{
+    background-color: skyblue;
+    transition: 2s;
+   }
+   .Login button{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: grey;
+    border: none;
+    position: relative;
+    bottom: 270px;
+    left: 1450;
+    background-color: green;
+   }
+  
